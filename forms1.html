@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<!--Example Form using some of the different types of input collection you can use in a form, including fieldset and legend. -->
+
+<head>
+      <title>Form</title>
+    </head>
+    <body>
+    
+      <form action="http://www.contoso.com/visitor.php" method="post">
+      <fieldset>
+      <legend>
+        Your info:
+      </legend>
+      <label>
+        Name:
+        <input type="text" name="name">
+      </label>
+      <br></br>
+      <label>
+        Email:
+        <input type="email" name="email">
+      </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>
+          Please share the following:
+        </legend>
+        <p>
+        <label for="Portal">
+          I found this web site through a...
+        </label>
+        <select name="Portal" id="portal">
+          <option value="search">web search</option>
+          <option value="link">link from another site</option>
+          <option value="friend">friend</option>
+          <option value="other">other</option>
+        </select>
+        </p>
+        <p>
+          My diet is mostly:
+          <label>
+            <input type="radio" name="diet" value="Vegan" /> Vegan
+            <input type="radio" name="diet" value="Vegetarian" /> Vegetarian
+            <input type="radio" name="diet" value="Omnivore" /> Omnivore
+          </label>
+        </p>
+        <p>I am looking for...(check all that apply)
+          <br>
+          <input type="checkbox" name="interest" value="Recipes" /> Recipes
+          <input type="checkbox" name="interest" value="Nutrition information" /> Nutrition information
+          <input type="checkbox" name="interest" value="Restaurant reviews" /> Restaurant reviews
+          <input type="checkbox" name="interest" value="Food news" /> Food news and trends
+          <input type="checkbox" name="interest" value="Meals" /> Meal plans
+        </p>
+        <p>
+          <label for="Comment">
+            Comments, questions, and recipes? Thanks for sharing!
+          </label>
+          <br>
+          <textarea name="comments" rows="4" cols="55">
+            Enter 
+          </textarea>
+        </p>
+          <input type="checkbox" name="subscribe" checked="checked"/> Subscribe me to your newsletter!
+          <br>      
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pkeQ3l57ZRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+    </html>
+    
+    
+
+
+
+
+    </body>
+</html>

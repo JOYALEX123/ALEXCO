@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle><h3 align="center">MY FORMS PRATICAL</h3></tittle>
+        </head>
+        <body>
+            <!--The purpose of this form is to capture user details (name, address, and email)
+     to obtain feedback (on fruit consumption and favorite fruit) and request a brochure.-->
+            <form action="http://www.contoso.com/visitor.php" method="post">
+                <fieldset>
+                <legend>
+                  Your info:
+                </legend>
+                <label>
+                  Name:
+                  <input type="text" name="name">
+                </label>
+                <br></br>
+                <label>
+                  Email:
+                  <input type="email" name="email">
+                </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend>
+                    Please share the following:
+                  </legend>
+                  <p>
+                  <label for="Portal">
+                    I found this web site through a...
+                  </label>
+                  <select name="Portal" id="portal">
+                    <option value="search">web search</option>
+                    <option value="link">link from another site</option>
+                    <option value="friend">friend</option>
+                    <option value="other">other</option>
+                  </select>
+                  </p>
+                  <p>
+                    My diet is mostly:
+                    <label>
+                      <input type="radio" name="diet" value="Vegan" /> Vegan
+                      <input type="radio" name="diet" value="Vegetarian" /> Vegetarian
+                      <input type="radio" name="diet" value="Omnivore" /> Omnivore
+                    </label>
+                  </p>
+                  <p>I am looking for...(check all that apply)
+                    <br>
+                    <input type="checkbox" name="interest" value="Recipes" /> Recipes
+                    <input type="checkbox" name="interest" value="Nutrition information" /> Nutrition information
+                    <input type="checkbox" name="interest" value="Restaurant reviews" /> Restaurant reviews
+                    <input type="checkbox" name="interest" value="Food news" /> Food news and trends
+                    <input type="checkbox" name="interest" value="Meals" /> Meal plans
+                  </p>
+                  <p>
+                    <label for="Comment">
+                      Comments, questions, and recipes? Thanks for sharing!
+                    </label>
+                    <br>
+                    <textarea name="comments" rows="4" cols="55">
+                      Enter 
+                    </textarea>
+                  </p>
+                    <input type="checkbox" name="subscribe" checked="checked"/> Subscribe me to your newsletter!
+                    <br>      
+                    <input type="submit" value="Submit" />
+                  </fieldset>
+                </form>
+              
+</br></br></br></br></br></br>
+
+Name <input type="text" name="name" value="">
+</br></br>
+Address <input type="text" name="address" value>
+</br></br>
+Email <input type="text" name="email" value>
+</br></br>
+How many pieces of fruit do you eat per day
+<input type="radio" name="howMany" value="zero"> 0
+</br></br>
+<input type="radio" name="howMany" value="one"> 1
+</br></br>
+<input type="radio" name="howMany" value="two"> 2
+</br></br>
+<input type="radio" name="howMany" value="twoplus"> more than 2
+</br></br></br>
+<select name="favFruit[]" size="4" multiple>
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="plum">Plum</option>
+    <option value="pomegranate">Pomegranate</option>
+    <option value="strawberry">Strawberry</option>
+    <option value="watermelon">Watermelon</option>
+   </select>
+</br></br></br>
+<input type="checkbox" name="brochure" value="Yes">
+</br></br></br> 
+<input type="submit" name="submit" value="Submit">
+</br></br></br>
+<!--The following sample HTML fragment defines a simple 
+    form that allows the user to enter a first name, last name, email address, and gender.--> 
+<FORM action="http://somesite.com/prog/adduser" method="post">
+    <P>
+    First name: <INPUT type="text" name="firstname"><BR>
+    </br>
+    Last name: <INPUT type="text" name="lastname"><BR>
+    </br>
+    email: <INPUT type="text" name="email"><BR>
+    <INPUT type="radio" name="sex" value="Male"> Male<BR>
+    <INPUT type="radio" name="sex" value="Female"> Female<BR>
+    <INPUT type="submit" value="Send"> <INPUT type="reset">
+    </P>
+ </FORM>
+ </body>
+
+
+
+         
+
+
+
+
+
+
+</html>
